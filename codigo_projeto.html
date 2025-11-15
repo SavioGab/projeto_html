@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Pagina de teste</title>
+    <style>
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        .caixa  {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            border: 2px solid black;
+            font-weight: bold;
+            margin: 0 2px;
+        }
+
+        h3 {
+
+        }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 800px;
+            margin: 40px auto;
+        }
+
+        @media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+        .card {
+            border: 2px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .card h3 {
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1>Pesquisas
+<span class="caixa">P</span>
+<span class="caixa">E</span>
+</h1>
+
+
+<div class="grid">
+
+    <div class="card">
+        <img src="https://imagens.ebc.com.br/1ytM0m4lfI90K7fkB0ux-9C9HjM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1059810-rj_26122016-_dsc7434.jpg?itok=V4LZJx4t" alt="">
+        <h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj8q-npyPSQAxVbO7kGHd2sGWYQFnoECAwQAQ&url=https%3A%2F%2Fwww.uol.com.br%2F&usg=AOvVaw0-1wOnMnwIMgIasaq3qaMs&opi=89978449">Pernambuco bate recorde de turistas no verão</a></h3>
+    </div>
+
+    <div class="card">
+        <img src="https://sitefiespstorage.blob.core.windows.net/uploads/2024/05/file-20240503145743-grafico1.png" alt="">
+        <h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj8q-npyPSQAxVbO7kGHd2sGWYQFnoECAwQAQ&url=https%3A%2F%2Fwww.uol.com.br%2F&usg=AOvVaw0-1wOnMnwIMgIasaq3qaMs&opi=89978449">Indústria local cresce 4,2% e supera média nacional</a></h3>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8D7Z4fjqTJiMtKT7Sylf4_TZMgcjqriwYsQ&s" alt="">
+        <h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj8q-npyPSQAxVbO7kGHd2sGWYQFnoECAwQAQ&url=https%3A%2F%2Fwww.uol.com.br%2F&usg=AOvVaw0-1wOnMnwIMgIasaq3qaMs&opi=89978449">Novo centro tecnológico promete 2 mil empregos</a></h3>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4RW4otTp81PSy6o05x_JO5Nb5BZ7K9F492g&s" alt="">
+        <h3><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj8q-npyPSQAxVbO7kGHd2sGWYQFnoECAwQAQ&url=https%3A%2F%2Fwww.uol.com.br%2F&usg=AOvVaw0-1wOnMnwIMgIasaq3qaMs&opi=89978449">Transporte público recebe modernização em Recife</a></h3>
+    </div>
+
+</div>
+
+</body>
+</html>
